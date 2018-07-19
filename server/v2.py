@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from flask import Flask
 from flask_restful import Resource, Api
 
@@ -27,6 +30,12 @@ class EndPoint4(Resource):
         return {'bar': 7.3}
 
 api.add_resource(EndPoint4, '/bar')
+
+class EndPoint5(Resource):
+    def get(self):
+        return {'spam': 1.5}
+
+api.add_resource(EndPoint5, '/spam')
 
 if __name__ == '__main__':
     app.run(debug=True, port=3001)

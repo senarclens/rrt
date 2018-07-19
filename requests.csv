@@ -3,3 +3,4 @@ id,method,endpoint,payload
 2,GET,/value,
 3,GET,/foo,
 4,GET,/bar,
+5,GET,/spam,
