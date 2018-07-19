@@ -1,0 +1,5 @@
+id,method,endpoint,payload
+1,GET,/,
+2,GET,/value,
+3,GET,/foo,
+4,GET,/bar,
